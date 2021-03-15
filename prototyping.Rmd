@@ -1,0 +1,42 @@
+---
+title: "week 3 prototype"
+output: html_document
+---
+```{r}
+##initialization
+install.packages("ggplot2")
+```
+
+```{r}
+mary_data <- Maryland_Counties_Socioeconomic_Characteristics
+x <- mary_data$Jurisdictions
+y <- mary_data$`Total Households`
+
+```
+
+```{r}
+ggplot(mary_data)+
+  geom_point(
+    mapping = aes(
+      x = log10(`Black Alone`),
+      y = log10(`Total Population`))) +
+        facet_wrap(~ `Jurisdictions`)
+```
+```{r}
+ggplot(mary_data, aes(log10(`Total Population`), log10(`Black Alone`), color = `Jurisdictions`))+
+  geom_point()
+```
+```{r}
+ggplot(mary_data, aes(log10(`Total Population`), log10(`White Alone`), color = `Jurisdictions`))+
+  geom_point()
+```
+
+
+
+
+
+
+
+
+
+
