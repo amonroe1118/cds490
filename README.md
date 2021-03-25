@@ -8,8 +8,8 @@ The variables White Alone and Black Alone hold the amount of white and black peo
 
 
 Methods:
-With the help of R Studio, I imported the data in the form of .csv files. 
-Using ggplot2 and facet wrapping, I created several plots to compare the population of Black people against the total population of each county. 
+With R Studio, I imported the data in the form of .csv files. 
+Using ggplot2 and facet wrapping, I created several plots to compare the population of Black people against the total population of each county, as well other factors like median income per county. 
 
 
 Hypothesis:
