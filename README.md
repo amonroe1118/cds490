@@ -8,8 +8,8 @@ The variables White Alone and Black Alone hold the amount of white and black peo
 
 
 Methods:
-With R Studio, I imported the data in the form of .csv files. 
-Using ggplot2 and facet wrapping, I created several plots to compare the population of Black people against the total population of each county, as well other factors like median income per county. 
+With the help of R Studio, I imported the data in the form of .csv files. I got the data from online census surveys in a format that can interact with in the R studio program. 
+I used functions inside R studio to create multiple graphs to compare the population of Black people against the total population of each county. 
 
 
 Hypothesis:
@@ -21,3 +21,7 @@ It seems that counties with the lowest population are the most likely to have to
 having a high total population, a low black population, and a very high median income. In addition, counties like Balitmore and Prince George have high total populations 
 and high populations of black people, but the median income is much lower than montgomery and cities with similar total populations. I believe the preceeding facts,
 prove my hypothesis correct. 
+
+Visualization:
+To better demonstrate the data and prove my hypothesis, I created a map of Maryland. This map will show each county in Maryland and demonstrate a variety of statistics,
+most likely the population of black people or median income. 
