@@ -3,8 +3,9 @@ cds 490 project
 
 Data:
 For this project, I'm using a dataset called "Maryland Counties Socioeconomic Characteristics." It contains various demographic information about the 24 counties of Maryland. Of which the most important for this project are: Total Population, Percent of Families in Poverty, and Black Alone. 
+
 Methods:
-With the help of R Studio, I imported the data in the form of .csv files. I got the data from online census surveys in a format that can interact with in the R studio program. I used functions inside R studio to create multiple graphs to compare the population of Black people against the total population of each county.
+With the help of R Studio, I imported the data in the form of .csv files. I got the data from online census surveys in a format that can interact with in the R studio program. I used functions inside R studio, particularly ggplot and plotly, to create multiple graphs to compare the population of Black people against the total population of each county and rates of poverty. Then I visualized my findings.  
 
 Hypothesis:
 My current hypothesis is that race has a strong relationship with poverty. I expect to find counties with the highest Black populations to have the higest poverty rates on average. This due to the unique unfair treatment that black people have to deal with systemically, and because of this, I expect blackness to be a huge contributing factor to poverty. 
