@@ -1,5 +1,6 @@
 # cds490
 cds 490 project
+
 Data:
 For this project, I'm using a dataset called "Maryland Counties Socioeconomic Characteristics." It contains various demographic information about the 24 counties of Maryland. Of which the most important for this project are: Total Population, Percent of Families in Poverty, and Black Alone. 
 Methods:
